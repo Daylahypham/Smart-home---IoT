@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Iot Web</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Tạo Tài Khoản</h1>
+                <input type="user" name="" id="user" placeholder="Tên đăng nhập">
+                <input type="email" name="" id="email" placeholder="Email">
+                <input type="password" name="" id="password" placeholder="Mật khẩu">
+                <button id="signUp-btn">Đăng Ký</button>
+            </form>
+        </div>
+        <div class="form-container sign-in" id="sign-in-form">
+            <form>
+                <h1>Đăng Nhập</h1>
+                <input type="user" name="" id="tk" placeholder="Email">
+                <input type="password" name="" id="pass" placeholder="Mật khẩu">
+                <a href="#" id="forgot-password">Quên mật khẩu?</a>
+                <button id="signIn-btn">Bắt Đầu</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>The Smarthome</h1>
+                    <p>Nhập thông tin cá nhân của bạn để sử dụng tất cả các tính năng của trang web</p>
+                    <button class="hidden" id="login">Đăng Nhập</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>The Smarthome</h1>
+                    <p>Giúp bạn quản lý và điều khiển các thiết bị điện tử trong ngôi nhà của bạn.</p>
+                    <button class="hidden" id="register">Đăng Ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
